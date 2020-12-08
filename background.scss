@@ -1,0 +1,327 @@
+// Chess.com Dark Theme
+
+$grey-base: #333 !important;
+$grey-dark: #444 !important;
+$grey-med: #52504d !important;
+$grey-light: #777 !important;
+$blue: #3798bd !important;
+$white: #fff !important;
+
+/* Globals START */
+select,
+option {
+  background-color: $grey-dark;
+  color: $white;
+}
+
+.load-more-button-loader {
+  background-color: $grey-dark;
+}
+
+.form-dropdown-options {
+  background-color: $grey-dark;
+}
+
+.form-dropdown-option:hover {
+  background-color: $grey-med;
+}
+
+.form-dropdown-selected {
+  background-color: $grey-med;
+}
+
+tr:hover,
+.clubs-matches-list-item:hover {
+  background-color: $grey-med;
+}
+/* Globals END */
+
+/* User profile page START */
+.section-content-component {
+  background: $grey-dark;
+}
+
+.section-content-component input {
+  background-color: inherit;
+}
+
+.section-content-component * {
+  color: $white;
+}
+
+.load-more-button-button-more {
+  background-color: $grey-dark;
+}
+
+.profile-notes-games-toggle-button {
+  background: $grey-base;
+}
+
+.profile-notes-games-active {
+  background: $grey-dark;
+}
+
+.section-title-component {
+  background: $grey-base;
+  color: $white;
+}
+
+.section-title-component * {
+  color: $white;
+}
+
+.archived-games-table-row {
+  background-color: $grey-dark;
+  border-color: $grey-light;
+  color: $white;
+}
+
+.archived-games-table-row .user-username-component {
+  color: $blue;
+}
+
+.archived-games-table-header th {
+  background-color: $grey-dark;
+}
+/* User profile page END */
+
+/* Games Archive START */
+.table-component thead th {
+  background-color: $grey-dark;
+}
+
+.v-board-popover:hover {
+  background-color: $grey-med;
+}
+/* Games Archive END */
+
+/* Messages START */
+.section-wrapper {
+  background: $grey-dark;
+}
+/* Messages END */
+
+/* Daily START */
+.current-games-wrapper {
+  margin: 0;
+}
+
+.daily-list-game-row:hover {
+  background-color: $grey-light;
+}
+
+.highcharts-background,
+.highcharts-plot-background {
+  fill: $grey-dark;
+}
+
+.dropdown-toggle h1 {
+  color: $white;
+}
+
+.main-chart-stats-current {
+  color: $white;
+}
+
+.main-chart-stats * {
+  color: $white;
+}
+
+.stats-list {
+  color: $white;
+}
+
+.stats-header {
+  border-color: $grey-light;
+}
+
+.stats-list aside {
+  color: $white;
+}
+
+.main-stats .col-md-4 {
+  background: $grey-med;
+  color: $white;
+  border: none;
+}
+
+.main-stats .col-md-4 * {
+  color: $white;
+  border: none;
+}
+
+.players-list a,
+.chart-title a {
+  color: $blue;
+}
+
+div[ng-controller="DailyLeaderboardCtrl"] {
+  background: $grey-dark;
+}
+/* Daily END */
+
+/* Sidebar START */
+.section-link-component {
+  background-color: $grey-med;
+}
+
+.section-link-component * {
+  color: $white;
+}
+
+.section-header {
+  background: $grey-med;
+  color: $white;
+}
+
+.section-header * {
+  color: $white;
+}
+
+.section-clickable {
+  background: $grey-dark;
+  border-bottom: solid 1px $grey-light;
+}
+
+.section-clickable * {
+  color: $white;
+}
+
+.form-input-component {
+  background: $grey-dark;
+}
+
+.section-highlight-component {
+  background: $grey-dark;
+}
+
+.section-container-component {
+  background-color: $grey-dark;
+}
+
+.sidebar-ratings-item {
+  color: $white;
+}
+
+.stat-section-section-header {
+  color: $white;
+}
+
+.stat-text-data-stats-list-item {
+  color: $white;
+}
+
+.stat-text-data-aside a {
+  color: $grey-light;
+}
+
+.stat-text-data-aside-link {
+  color: $grey-light;
+}
+
+.stat-text-data-draw {
+  color: $grey-light;
+}
+
+.stat-text-data-highest {
+  color: $white;
+}
+/* Sidebar END */
+
+/* Settings START */
+.settings-menu-link {
+  background-color: $grey-dark;
+  border-top-color: $grey-light;
+}
+
+.settings-menu-link * {
+  color: $white;
+}
+
+.mce-flow-layout {
+  background-color: $grey-dark;
+}
+
+.mce-content-body {
+  background-color: $grey-base;
+}
+
+.settings-informative-message-text {
+  color: $grey-dark;
+}
+/* Settings END */
+
+/* Membership START */
+.membership-plan-body {
+  background-color: $grey-med;
+}
+
+.membership-plan-body .ui_v5-button-basic-light {
+  color: $grey-med;
+}
+
+.membership-plan-body_title_modified {
+  background-color: $grey-med;
+}
+/* Membership END */
+
+/* Pagination START */
+.pagination-button-component {
+  background-color: $grey-light;
+}
+
+.pagination-button-active {
+  background-color: $grey-med;
+}
+/* Pagination END */
+
+/* Socials START */
+.social-share-component {
+  background: $grey-dark;
+}
+/* Socials END */
+
+/* Forum START */
+.forums-index-header {
+  background-color: $grey-dark;
+}
+
+.fquote {
+  background-color: $grey-med;
+}
+
+.forums-index-post a span {
+  color: $blue;
+}
+/* Forum END */
+
+/* Clubs START */
+.clubs-votechess-list-item:hover {
+  background-color: $grey-med;
+}
+/* Clubs END */
+
+/* Live Game START */
+.comments-component,
+.comments-box-component {
+  background: $grey-dark;
+}
+
+.section-tabs-tab {
+  background: $grey-dark;
+}
+
+.tinymce-component .mce-tinymce {
+  border: 1px solid $grey-light;
+}
+/* Live Game END */
+
+/* Tournaments START */
+.tournaments-intro .section-content-component {
+  background-color: transparent;
+}
+
+.tournaments-table-tournament-title {
+  color: $blue;
+}
+/* Tournaments END */

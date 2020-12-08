@@ -1,0 +1,20 @@
+{
+  "name": "Chess.com Dark Theme Compliment (unofficial)",
+  "version": "1.0",
+  "description": "A dark theme for more parts of the chess.com site which aren't covered by the original dark theme.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.chess.com/*"],
+      "css": ["background.css"]
+    }
+  ],
+  "web_accessible_resources": ["background.css"],
+  "page_action": {},
+  "permissions": ["storage"],
+  "manifest_version": 2,
+  "icons": {
+    "16": "chesslogo.png",
+    "48": "chesslogo.png",
+    "128": "chesslogo.png"
+  }
+}
