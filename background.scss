@@ -14,22 +14,13 @@ option {
   color: $white;
 }
 
-.load-more-button-loader {
-  background-color: $grey-dark;
-}
-
+.load-more-button-loader,
 .form-dropdown-options {
   background-color: $grey-dark;
 }
 
-.form-dropdown-option:hover {
-  background-color: $grey-med;
-}
-
-.form-dropdown-selected {
-  background-color: $grey-med;
-}
-
+.form-dropdown-option:hover,
+.form-dropdown-selected,
 tr:hover,
 .clubs-matches-list-item:hover {
   background-color: $grey-med;
@@ -38,15 +29,15 @@ tr:hover,
 
 /* User profile page START */
 .section-content-component {
-  background: $grey-dark;
-}
+  background-color: $grey-dark;
 
-.section-content-component input {
-  background-color: inherit;
-}
+  * {
+    color: $white;
+  }
 
-.section-content-component * {
-  color: $white;
+  input {
+    background-color: inherit !important;
+  }
 }
 
 .load-more-button-button-more {
@@ -54,15 +45,15 @@ tr:hover,
 }
 
 .profile-notes-games-toggle-button {
-  background: $grey-base;
+  background-color: $grey-base;
 }
 
 .profile-notes-games-active {
-  background: $grey-dark;
+  background-color: $grey-dark;
 }
 
 .section-title-component {
-  background: $grey-base;
+  background-color: $grey-base;
   color: $white;
 }
 
@@ -97,7 +88,7 @@ tr:hover,
 
 /* Messages START */
 .section-wrapper {
-  background: $grey-dark;
+  background-color: $grey-dark;
 }
 /* Messages END */
 
@@ -115,19 +106,11 @@ tr:hover,
   fill: $grey-dark;
 }
 
-.dropdown-toggle h1 {
-  color: $white;
-}
-
-.main-chart-stats-current {
-  color: $white;
-}
-
-.main-chart-stats * {
-  color: $white;
-}
-
-.stats-list {
+.dropdown-toggle h1,
+.main-chart-stats-current,
+.main-chart-stats *,
+.stats-list,
+.stats-list aside {
   color: $white;
 }
 
@@ -135,90 +118,83 @@ tr:hover,
   border-color: $grey-light;
 }
 
-.stats-list aside {
-  color: $white;
-}
-
 .main-stats .col-md-4 {
-  background: $grey-med;
+  background-color: $grey-med;
   color: $white;
   border: none;
+
+  * {
+    color: $white;
+    border: none;
+  }
 }
 
-.main-stats .col-md-4 * {
-  color: $white;
-  border: none;
-}
-
-.players-list a,
-.chart-title a {
-  color: $blue;
+.players-list,
+.chart-title {
+  a {
+    color: $blue;
+  }
 }
 
 div[ng-controller="DailyLeaderboardCtrl"] {
-  background: $grey-dark;
+  background-color: $grey-dark;
 }
 /* Daily END */
+
+// Puzzles START
+.progress-table {
+  tr {
+    background-color: $grey-dark;
+    color: $white;
+  }
+  .category,
+  .score {
+    color: $white;
+  }
+}
+// Puzzles END
 
 /* Sidebar START */
 .section-link-component {
   background-color: $grey-med;
-}
 
-.section-link-component * {
-  color: $white;
+  * {
+    color: $white;
+  }
 }
 
 .section-header {
-  background: $grey-med;
+  background-color: $grey-med;
   color: $white;
-}
 
-.section-header * {
-  color: $white;
+  * {
+    color: $white;
+  }
 }
 
 .section-clickable {
-  background: $grey-dark;
+  background-color: $grey-dark;
   border-bottom: solid 1px $grey-light;
+
+  * {
+    color: $white;
+  }
 }
 
-.section-clickable * {
-  color: $white;
-}
-
-.form-input-component {
-  background: $grey-dark;
-}
-
-.section-highlight-component {
-  background: $grey-dark;
-}
-
+.form-input-component,
+.section-highlight-component,
 .section-container-component {
   background-color: $grey-dark;
 }
 
-.sidebar-ratings-item {
-  color: $white;
-}
-
-.stat-section-section-header {
-  color: $white;
-}
-
+.sidebar-ratings-item,
+.stat-section-section-header,
 .stat-text-data-stats-list-item {
   color: $white;
 }
 
-.stat-text-data-aside a {
-  color: $grey-light;
-}
-
-.stat-text-data-aside-link {
-  color: $grey-light;
-}
-
+.stat-text-data-aside a,
+.stat-text-data-aside-link,
 .stat-text-data-draw {
   color: $grey-light;
 }
@@ -232,10 +208,10 @@ div[ng-controller="DailyLeaderboardCtrl"] {
 .settings-menu-link {
   background-color: $grey-dark;
   border-top-color: $grey-light;
-}
 
-.settings-menu-link * {
-  color: $white;
+  * {
+    color: $white;
+  }
 }
 
 .mce-flow-layout {
@@ -254,10 +230,10 @@ div[ng-controller="DailyLeaderboardCtrl"] {
 /* Membership START */
 .membership-plan-body {
   background-color: $grey-med;
-}
 
-.membership-plan-body .ui_v5-button-basic-light {
-  color: $grey-med;
+  .ui_v5-button-basic-light {
+    color: $grey-med;
+  }
 }
 
 .membership-plan-body_title_modified {
@@ -277,7 +253,7 @@ div[ng-controller="DailyLeaderboardCtrl"] {
 
 /* Socials START */
 .social-share-component {
-  background: $grey-dark;
+  background-color: $grey-dark;
 }
 /* Socials END */
 
@@ -304,11 +280,11 @@ div[ng-controller="DailyLeaderboardCtrl"] {
 /* Live Game START */
 .comments-component,
 .comments-box-component {
-  background: $grey-dark;
+  background-color: $grey-dark;
 }
 
 .section-tabs-tab {
-  background: $grey-dark;
+  background-color: $grey-dark;
 }
 
 .tinymce-component .mce-tinymce {
